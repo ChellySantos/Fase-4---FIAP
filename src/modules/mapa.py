@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import math as math
-from modulos import  *
+from modules.modulos import  *
 
 matriz_conexoes = [
     # HAB CTR ENE AGR LAB COM MED OXI

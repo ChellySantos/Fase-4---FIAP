@@ -1,5 +1,5 @@
-from modulos import *
-from mapa import *
+from modules.modulos import *
+from modules.mapa import *
 
 def main():
     #Inicia a colônia
