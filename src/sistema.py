@@ -2,6 +2,8 @@ from modules.modulos import *
 from modules.mapa import *
 
 
+
+
 def main():
     #Inicia a colônia
     colonia = Colonia()
@@ -57,7 +59,6 @@ def main():
     print(f"Tempo de comunicação: {tempo_comunicacao:.2f} s")
     print(f"Consumo energético: {consumo_comunicacao:.2f} W")
     print(f"Peso da conexão: {peso:.0f}")
-
-
+    
 if __name__ == "__main__":
     main()
