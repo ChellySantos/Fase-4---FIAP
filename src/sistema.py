@@ -1,5 +1,6 @@
 from modules.modulos import *
 from modules.mapa import *
+from algorithms.algoritmos import conexoes_criticas
 
 
 
@@ -60,5 +61,7 @@ def main():
     print(f"Consumo energético: {consumo_comunicacao:.2f} W")
     print(f"Peso da conexão: {peso:.0f}")
     
+    conexoes_criticas(colonia)
+
 if __name__ == "__main__":
     main()
